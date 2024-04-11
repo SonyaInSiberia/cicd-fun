@@ -12,8 +12,9 @@ mod tests {
         assert_eq!(result, 4);
     }
 
+    #[test]
     fn not_work() {
         let bug = add(2, 1);
-        assert_eq!(bug, 2);
+        assert_eq!(bug, 3);
     }
 }
